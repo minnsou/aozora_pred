@@ -7,7 +7,9 @@
 1. Doc2Vecを使って、本文をベクトル化（本文から作られたベクトルをx、作者IDをyとした教師データの作成）
 1. kerasを使ってニューラルネットを構成し、分類問題として教師あり学習
 
-Mac OS Catalina 10.15.2を使用
+コードをある程度詳しく解説した記事を[qiita](https://qiita.com/minnsou/items/37e3155c92103dae04f4)で書きました。一緒にご覧ください。
+
+Mac OS Catalina 10.15.2を使用しています。Windowsでちゃんと動くかどうかは未確認。
 
 ## Description
 
@@ -21,3 +23,6 @@ Mac OS Catalina 10.15.2を使用
 
 BeautifulSoup, gensim, numpy, matplotlib, keras, MeCab
 
+## Usage
+
+`git clone git@github.com:minnsou/aozora_pred.git`して、aozora_pred.ipynbを上から順に実行してください。
