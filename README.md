@@ -21,7 +21,9 @@ Mac OS Catalina 10.15.2を使用しています。Windowsでちゃんと動く�
 
 ## Requirement
 
-BeautifulSoup, gensim, numpy, matplotlib, keras, MeCab
+BeautifulSoup, gensim, matplotlib, MeCab, numpy, keras
+
+`pip install beautifulsoup4 gensim matplotlib mecab-python3 keras`
 
 ## Usage
 
