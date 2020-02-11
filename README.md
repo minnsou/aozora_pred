@@ -9,7 +9,7 @@
 
 コードをある程度詳しく解説した記事を[qiita](https://qiita.com/minnsou/items/37e3155c92103dae04f4)で書きました。一緒にご覧ください。
 
-Mac OS Catalina 10.15.2を使用しています。Windowsでちゃんと動くかどうかは未確認。
+Mac OS 10.13から10.15、python3.7で動作確認済み。Windows等の他のOSでちゃんと動くかどうかは未確認。
 
 ## Description
 
@@ -23,7 +23,7 @@ Mac OS Catalina 10.15.2を使用しています。Windowsでちゃんと動く�
 
 BeautifulSoup, gensim, matplotlib, MeCab, numpy, keras
 
-`pip install beautifulsoup4 gensim matplotlib mecab-python3 keras`
+`pip install beautifulsoup4 gensim matplotlib mecab-python3 keras tensorflow==1.14`
 
 ## Usage
 
